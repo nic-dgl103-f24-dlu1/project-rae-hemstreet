@@ -163,3 +163,50 @@ html {
   }
 
   /*-------- EVENTS ---------*/
+
+
+
+
+
+  /*-------- FOOTER ---------*/
+
+  footer {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  footer img {
+    width: 75px;
+    align-self: center;
+  }
+
+  footer ul {
+    list-style-type: none;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #607a5c;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .footer-flex {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .footer-2 hr {
+    color: #475c44;
+    margin: 20px 0;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .footer-small {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #a1aeb7;
+  }
