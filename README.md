@@ -99,7 +99,6 @@ For my redesign, I will build the Homepage, Our Story, and Contact pages.
 **About Section**
 - **Heading**: *"Where Passion for Nature Blossoms"*
 - **Paragraph**: *Brief introduction to the Gardens, how they came to be, facts, etc*
-- **Second paragaph**: *Brief introduction to what goes on at the Gardens during the year (Art shows, Christmas programs, etc.)*
 - **Image**: *Small, yet high-quality and eye-catching photo to support the content*
 - **Link**: *"Discover Our Story" link to About Us page*
 
