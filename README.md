@@ -77,7 +77,7 @@ I may choose different fonts as I progess with this project, but currently my ch
 
 ## Website Content
 
-For my redesign, I will build the Homepage, About Us, and Contact pages.
+For my redesign, I will build the Homepage, Our Story, and Contact pages.
 
 ### Homepage
 
@@ -85,7 +85,7 @@ For my redesign, I will build the Homepage, About Us, and Contact pages.
 - **Logo**
 - **Main Navigation**:
     - *Home*
-    - *About Us*
+    - *Our Story*
     - *Gallery*
     - *Events*
     - *Plan Your Visit*
@@ -121,7 +121,7 @@ For my redesign, I will build the Homepage, About Us, and Contact pages.
 - **Logo**
 - **Secondary Navigation**:
     - *Home*
-    - *About Us*
+    - *Our Story*
     - *Gallery*
     - *Events*
     - *Plan Your Visit*
@@ -131,7 +131,7 @@ For my redesign, I will build the Homepage, About Us, and Contact pages.
 - **Copyright**: *“Rae Hemstreet, DGL 103”*
 - **Disclaimer**: *“This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”*
 
-### About Us
+### Our Story
 
 **Header**:
 - *Same as Homepage*
