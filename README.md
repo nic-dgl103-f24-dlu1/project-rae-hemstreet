@@ -65,7 +65,7 @@ Most of the current colors featured in the current website contribute to the dat
 
 ### Images: Is there a logo, photos, icons or illustrations that can be used from the original site?
 
-The current logo is relatively well designed and I can keep that. As for images, the current website contains an extensive gallery of photos of the gardens, and there are lots of beautiful photos that I can use to feature on the website, rather than hidden away in album folders as they are currently.
+The current logo is relatively well designed and I can keep that. As for images, the current website contains an extensive gallery of photos of the gardens, and there are lots of beautiful photos that I can use to feature on the website, rather than hidden away in album folders as they are currently. (Edit as I am designing: I lied. The photos are tiny and not good quality, I will unfortunately need to use stock photos for most of this project.)
 
 ### Fonts: Are there any brand typefaces that you can reuse? List 2 font-families that you plan to use in your redesign
 
