@@ -72,7 +72,7 @@ The current logo is relatively well designed and I can keep that. As for images,
 The current fonts featured on the site contribute to the website feeling incredibly dated and need to be replaced.
 
 I may choose different fonts as I progess with this project, but currently my choices are:
-    - Headings - Quicksand (light or regular weights)
+    - Headings - Montserrat
     - Body - Poppins
 
 ## Website Content
