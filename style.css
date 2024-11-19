@@ -226,10 +226,12 @@ html {
   footer {
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 15px;
+    background-color: rgba(123, 167, 120, 0.89)
   }
 
   footer img {
-    width: 75px;
+    width: 100px;
     align-self: center;
   }
 
@@ -239,18 +241,36 @@ html {
 
   footer a {
     text-decoration: none;
-    color: #607a5c;
+    color: #4a5e46;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .footer-flex {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-evenly;
   }
 
-  .footer-2 hr {
-    color: #475c44;
+  .social {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social img {
+    width: 25px;
+    align-self: center;
+  }
+
+  .social a {
+    font-size: 1.6rem;
+  }
+
+  hr {
+    border-color: #647961;
     margin: 20px 0;
     width: 95%;
     margin-left: auto;
@@ -259,7 +279,7 @@ html {
   }
 
   .footer-small {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
-    color: #a1aeb7;
+    color: #52575adc;
   }
