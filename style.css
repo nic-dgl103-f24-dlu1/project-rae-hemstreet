@@ -110,7 +110,6 @@ html {
   }
 
   .hero h2 {
-    margin-top: 0;
     font-family: "Playwrite HU", cursive;
     font-weight: 400;
     font-size: 3rem;
@@ -296,6 +295,19 @@ html {
       width: 1130px;
     }
 
+    /*-------- TYPOGRAPHY ---------*/
+
+    h2 {
+      font-size: 3.2rem;
+    }
+
+    .button {
+      display: block;
+      margin: auto;
+      width: 350px;
+      font-size: 2rem;
+    }
+
     /*-------- HEADER ---------*/
 
     .mobile-only-h1 {
@@ -330,5 +342,19 @@ html {
     nav a {
       font-size: 1.6rem;
     }
-    
+
+    /*-------- HERO ---------*/
+
+    .hero h2 {
+      font-size: 5.5rem;
+    }
+
+    /*-------- ABOUT ---------*/
+
+    .about {
+      margin-top: 40px;
+    }
+
+
+
   }
