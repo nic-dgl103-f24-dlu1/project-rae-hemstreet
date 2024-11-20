@@ -366,5 +366,15 @@ html {
       margin-bottom: 20px;
     }
 
+    /*-------- CALL TO ACTION ---------*/
+
+    .call-to-action {
+      margin-top: 40px;
+    }
+
+    .call-to-action .button {
+      width: 400px;
+    }
+
 
   }
