@@ -303,24 +303,32 @@ html {
     }
 
     h1 {
-      font-size: 5.5rem;
+      font-size: 3rem;
+      padding-right: 25px;
+    }
+
+    header {
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
     }
 
     header img {
-      width: 125px;
-      margin-left: 20px;
+      width: 100px;
+      margin-left: 15px;
     }
 
     .toggle {
       display: none;
     }
 
-    nav {
-      height: 65px;
+    nav ul {
+      display: flex;
+      gap: 15px;
     }
 
-    nav ul {
-      display: block;
+    nav a {
+      font-size: 1.6rem;
     }
     
   }
