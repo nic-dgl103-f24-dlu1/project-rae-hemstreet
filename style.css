@@ -352,7 +352,7 @@ html {
     /*-------- ABOUT ---------*/
 
     .about {
-      margin-top: 40px;
+      margin-top: 60px;
     }
 
     .about p {
@@ -369,7 +369,7 @@ html {
     /*-------- CALL TO ACTION ---------*/
 
     .call-to-action {
-      margin-top: 40px;
+      margin-top: 60px;
     }
 
     .call-to-action .button {
@@ -379,13 +379,13 @@ html {
     /*-------- EVENTS ---------*/
 
     .events {
-      margin-top: 40px;
+      margin-top: 60px;
     }
 
     .events-content {
       margin: auto;
       width: 650px;
-      padding-bottom: 18px;
+      padding-bottom: 30px;
     }
 
     .events a {
