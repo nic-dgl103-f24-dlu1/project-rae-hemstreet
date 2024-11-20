@@ -240,7 +240,7 @@ html {
 
   footer a {
     text-decoration: none;
-    color: #4a5e46;
+    color: #ffffff;
     font-size: 1.2rem;
     font-weight: 400;
   }
@@ -266,6 +266,7 @@ html {
 
   .social a {
     font-size: 1.6rem;
+    color: #4a5e46;
   }
 
   hr {
@@ -415,4 +416,33 @@ html {
       margin-top: 35px;
     }
 
+    /*-------- FOOTER ---------*/
+
+    footer img {
+      width: 125px;
+      margin-top: 20px;
+    }
+
+    footer a {
+      font-size: 1.4rem;
+    }
+
+    footer ul {
+      padding-top: 15px;
+    }
+
+    .social a {
+      padding-top: 18px;
+    }
+
+    .social img {
+      width: 30px;
+    }
+
+    .footer-small {
+      font-size: 1.4rem;
+      width: 800px;
+      margin: auto;
+      padding-top: 10px;
+    }
   }
