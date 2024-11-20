@@ -298,7 +298,7 @@ html {
     /*-------- TYPOGRAPHY ---------*/
 
     h2 {
-      font-size: 3.2rem;
+      font-size: 3.4rem;
     }
 
     .button {
@@ -355,6 +355,16 @@ html {
       margin-top: 40px;
     }
 
+    .about p {
+      width: 650px;
+      margin: auto;
+      padding-bottom: 18px;
+    }
+
+    .about img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
 
 
   }
