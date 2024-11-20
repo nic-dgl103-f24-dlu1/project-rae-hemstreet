@@ -376,5 +376,43 @@ html {
       width: 400px;
     }
 
+    /*-------- EVENTS ---------*/
+
+    .events {
+      margin-top: 40px;
+    }
+
+    .events-content {
+      margin: auto;
+      width: 650px;
+      padding-bottom: 18px;
+    }
+
+    .events a {
+      width: 70%;
+    }
+
+    .event-card img {
+      width: 80%;
+    }
+
+    .event-card {
+      width: 33%;
+    }
+
+    .event-card-container {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card-4 {
+      padding-top: 20px;
+    }
+
+    .card-4 .button {
+      margin-top: 35px;
+    }
 
   }
