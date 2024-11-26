@@ -180,6 +180,8 @@ html {
     display: block;
     margin: auto;
     padding-bottom: 15px;
+    width: 300px;
+    height: 169px;
   }
 
   /*-------- EVENTS ---------*/
@@ -408,6 +410,11 @@ html {
 
     .call-to-action .button {
       width: 400px;
+    }
+
+    iframe {
+    width: 650px;
+    height: 366px;
     }
 
     /*-------- EVENTS ---------*/
