@@ -176,6 +176,12 @@ html {
     border-radius: 5px;
   }
 
+  iframe {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+
   /*-------- EVENTS ---------*/
 
   .events {
@@ -283,6 +289,33 @@ html {
     text-align: center;
     color: #52575adc;
   }
+
+
+  /*----------------------------------------------------- OUR STORY --------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /*-------- MEDIA QUERIES ---------*/
 
