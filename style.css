@@ -400,6 +400,8 @@ html {
       font-size: 1.6rem;
     }
 
+    /*------------------- HOME PAGE ----------------*/
+
     /*-------- HERO ---------*/
 
     .hero h2 {
@@ -507,4 +509,38 @@ html {
       margin: auto;
       padding-top: 10px;
     }
+
+    /*------------------- OUR STORY ----------------*/
+
+    .story-hero h2 {
+      font-size: 4rem;
+      padding-top: 20px;
+    }
+
+    .our-history {
+      padding-top: 30px;
+    }
+
+    .our-history h2 {
+      padding-bottom: 20px;
+      font-size: 3.4rem;
+    }
+
+    .our-history p {
+      width: 650px;
+      margin: auto;
+      padding-bottom: 18px;
+    }
+
+    .photo-gallery {
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+
+    .photo-gallery h2 {
+      margin-top: 0;
+      padding-bottom: 20px;
+      font-size: 3.4rem;
+    }
+
   }
