@@ -380,12 +380,12 @@ html {
 }
 
 .contact-table {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 table {
   width: 70vw;
-  padding-right: 10px;
+  margin: auto;
 }
 
 th {
@@ -417,7 +417,7 @@ table a {
 /*-------- CONTACT FORM ---------*/
 
 .contact-form-section {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .contact-form h2 {
@@ -750,7 +750,14 @@ input:required {
 
     /*-------- CONTACT US ---------*/
 
+    .contact-table caption {
+      font-size: 3.2rem;
+      padding-bottom: 25px;
+    }
 
+    .contact-us {
+      padding-bottom: 20px;
+    }
 
     /*-------- CONTACT FORM ---------*/
 
