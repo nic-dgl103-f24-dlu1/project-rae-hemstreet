@@ -615,6 +615,7 @@ input:required {
     width: 650px;
     height: 366px;
     margin-bottom: 20px;
+    border: 0;
   }
 
   /*-------- EVENTS ---------*/
