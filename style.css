@@ -342,6 +342,21 @@ html {
 
 /*----------------------------------------------------- CONTACT US --------------------------------------------------*/
 
+/*-------- HERO ---------*/
+
+.contact-hero h2 {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
+.contact-hero img {
+  width: 100vw;
+}
+
+.contact-hero {
+  padding-top: 25px;
+}
+
 
 
   /*-------- MEDIA QUERIES ---------*/
