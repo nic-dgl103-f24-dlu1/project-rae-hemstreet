@@ -357,7 +357,17 @@ html {
   padding-top: 25px;
 }
 
+/*-------- LOCATION ---------*/
 
+.location h2 {
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
+.location p {
+  margin-top: 0;
+  padding-top: 5px;
+}
 
   /*-------- MEDIA QUERIES ---------*/
 
