@@ -369,6 +369,109 @@ html {
   padding-top: 5px;
 }
 
+/*-------- CONTACT ---------*/
+
+.contact-us {
+  padding-bottom: 20px;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="reset"] {
+  color: #4a5e46;
+  padding: 10px 18px;
+  border: 2px solid #95b98f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #acdaaf;
+}
+
+input[type="submit"] {
+  background-color: #95b98f;
+  color: white;
+  padding: 10px 18px;
+  border: 2px solid #719470;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #9bc49e;
+}
+
+.contact-form {
+  border-radius: 10px;
+  background-color: rgba(123, 167, 120, 0.438);
+  padding: 20px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.contact-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #67806b;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #67806b;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #67806b;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.required {
+  font-size: 1.4rem;
+  color: rgb(165, 43, 43);
+}
+
+input:required {
+  border: 1px solid rgb(165, 43, 43);
+}
+
   /*-------- MEDIA QUERIES ---------*/
 
   /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
@@ -541,10 +644,14 @@ html {
 
     /*------------------- OUR STORY ----------------*/
 
+    /*-------- HERO ---------*/
+
     .story-hero h2 {
       font-size: 4rem;
       padding-top: 20px;
     }
+
+    /*-------- HISTORY ---------*/
 
     .our-history {
       padding-top: 30px;
@@ -561,6 +668,8 @@ html {
       padding-bottom: 18px;
     }
 
+    /*-------- PHOTO GALLERY ---------*/
+
     .photo-gallery {
       padding-top: 30px;
       padding-bottom: 60px;
@@ -574,6 +683,39 @@ html {
 
     /*------------------- CONTACT US ----------------*/
 
+    /*-------- HERO ---------*/
 
+    .contact-hero h2 {
+      font-size: 4rem;
+      padding-top: 20px;
+    }
 
+    /*-------- LOCATION ---------*/
+
+    .location h2 {
+      font-size: 3.2rem;
+      padding-bottom: 20px;
+    }
+
+    .location p {
+      width: 650px;
+      margin: auto;
+      padding-bottom: 18px;
+    }
+
+    /*-------- CONTACT US ---------*/
+
+    
+
+    /*-------- CONTACT FORM ---------*/
+
+    .contact-us {
+      padding-top: 30px;
+    }
+
+    .contact-form h2 {
+      font-size: 3rem;
+      margin-top: 0;
+      padding-top: 20px;
+    }
   }
