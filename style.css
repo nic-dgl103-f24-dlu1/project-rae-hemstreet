@@ -367,11 +367,56 @@ html {
 .location p {
   margin-top: 0;
   padding-top: 5px;
+  padding-bottom: 10px;
 }
 
-/*-------- CONTACT ---------*/
+/*-------- CONTACT US ---------*/
 
-.contact-us {
+.contact-table caption {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 15px;
+  color:rgb(71, 95, 71);
+}
+
+.contact-table {
+  padding-bottom: 20px;
+}
+
+table {
+  width: 70vw;
+  padding-right: 10px;
+}
+
+th {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+td,
+th {
+  padding: 4px;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: rgba(123, 167, 120, 0.548);
+  color: white;
+  border-radius: 10px;
+}
+
+table a {
+  text-decoration: none;
+  color: #283d23;
+}
+
+/*-------- CONTACT FORM ---------*/
+
+.contact-form-section {
   padding-bottom: 20px;
 }
 
@@ -705,7 +750,7 @@ input:required {
 
     /*-------- CONTACT US ---------*/
 
-    
+
 
     /*-------- CONTACT FORM ---------*/
 
