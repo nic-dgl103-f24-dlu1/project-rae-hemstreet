@@ -210,11 +210,13 @@ iframe {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 0;
+  color:#29412b;
 }
 
 .event-card h4 {
   text-align: center;
   line-height: 0;
+  color:#1e301f;
 }
 
 .event-card a {
@@ -275,7 +277,7 @@ footer a {
 
 .social a {
   font-size: 1.6rem;
-  color: #4a5e46;
+  color: #243521;
 }
 
 hr {
@@ -539,6 +541,13 @@ input:required {
     margin: auto;
     width: 350px;
     font-size: 2rem;
+    cursor: pointer;
+    border: 3px solid #7f9b7b;
+  }
+
+  .button:hover {
+    background-color: #7f9b7b96;
+    transition: ease-out 0.5s;
   }
 
   /*-------- HEADER ---------*/
@@ -574,6 +583,11 @@ input:required {
 
   nav a {
     font-size: 1.6rem;
+  }
+
+  nav a:hover {
+    color:#719470;
+    transition: linear 0.3s;
   }
 
   /*------------------- HOME PAGE ----------------*/
@@ -665,7 +679,12 @@ input:required {
   }
 
   footer a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+  }
+
+  footer a:hover {
+    color:#465f45;
+    transition: linear 0.3s;
   }
 
   footer ul {
@@ -724,6 +743,11 @@ input:required {
     margin-top: 0;
     padding-bottom: 20px;
     font-size: 3.4rem;
+  }
+
+  .photo-gallery img:hover {
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 15px 0px;
+    transition: ease-out 0.2s;
   }
 
   /*------------------- CONTACT US ----------------*/
