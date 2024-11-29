@@ -47,7 +47,7 @@ h2 {
 /*-------- HEADER ---------*/
 
 header {
-  background-color: #7E9975;
+  background-color: #78916E;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -237,7 +237,7 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 15px;
-  background-color: rgba(123, 167, 120, 0.89);
+  background-color: #8fa786;
 }
 
 footer img {
