@@ -125,7 +125,7 @@ nav .toggle {
 .hero a {
   text-decoration: none;
   color: white;
-  background-color: #7f9b7b;
+  background-color: #5f7a5c;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   padding: 5px;
@@ -145,7 +145,7 @@ nav .toggle {
   text-decoration: none;
   color: white;
   font-weight: 400;
-  background-color: #7f9b7b;
+  background-color: #5f7a5c;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   padding: 5px;
   border-radius: 5px;
@@ -171,7 +171,7 @@ nav .toggle {
   text-decoration: none;
   color: white;
   font-weight: 400;
-  background-color: #7f9b7b;
+  background-color: #5f7a5c;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   padding: 5px;
   border-radius: 5px;
@@ -210,13 +210,13 @@ iframe {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 0;
-  color:#29412b;
+  color: #29412b;
 }
 
 .event-card h4 {
   text-align: center;
   line-height: 0;
-  color:#1e301f;
+  color: #1e301f;
 }
 
 .event-card a {
@@ -225,7 +225,7 @@ iframe {
   text-decoration: none;
   color: white;
   font-weight: 400;
-  background-color: #7f9b7b;
+  background-color: #5f7a5c;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   padding: 5px;
   border-radius: 5px;
@@ -542,11 +542,11 @@ input:required {
     width: 350px;
     font-size: 2rem;
     cursor: pointer;
-    border: 3px solid #7f9b7b;
+    border: 3px solid #5f7a5c;
   }
 
   .button:hover {
-    background-color: #7f9b7b96;
+    background-color: #769771;
     transition: ease-out 0.5s;
   }
 
@@ -586,7 +586,7 @@ input:required {
   }
 
   nav a:hover {
-    color:#719470;
+    color: #719470;
     transition: linear 0.3s;
   }
 
@@ -683,7 +683,7 @@ input:required {
   }
 
   footer a:hover {
-    color:#465f45;
+    color: #465f45;
     transition: linear 0.3s;
   }
 
