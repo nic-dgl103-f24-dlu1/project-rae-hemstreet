@@ -237,7 +237,7 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 15px;
-  background-color: #7e9676;
+  background-color: #61765B;
 }
 
 footer img {
@@ -277,11 +277,11 @@ footer a {
 
 .social a {
   font-size: 1.6rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 hr {
-  border-color: #647961;
+  border-color: #abc2a7;
   margin: 20px 0;
   width: 95%;
   margin-left: auto;
@@ -292,7 +292,7 @@ hr {
 .footer-small {
   font-size: 1.2rem;
   text-align: center;
-  color: #000000f1;
+  color: #fffffff1;
 }
 
 /*----------------------------------------------------- OUR STORY --------------------------------------------------*/
