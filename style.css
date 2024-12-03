@@ -1,0 +1,797 @@
+/*-------- GLOBAL STYLES ---------*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  background-color: rgba(123, 167, 120, 0.4);
+}
+
+/*-------- UTILITY ---------*/
+
+.content-width {
+  width: 334px;
+  margin: auto;
+}
+
+/*-------- TYPOGRAPHY ---------*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(71, 95, 71);
+}
+
+/*-------- HEADER ---------*/
+
+header {
+  background-color: #78916E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header img {
+  width: 75px;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 0;
+  text-align: center;
+}
+
+nav .toggle {
+  align-self: flex-end;
+}
+
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/*----------------------------------------------------- HOMEPAGE --------------------------------------------------*/
+
+/*-------- HERO ---------*/
+
+.hero {
+  margin-top: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: url(images/pink-rhodos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: "Playwrite HU", cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  background-color: rgba(172, 209, 177, 0.466);
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+  background-color: #5f7a5c;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*-------- ABOUT ---------*/
+
+.about {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.about a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  background-color: #5f7a5c;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.about img {
+  max-width: 75%;
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+/*-------- CALL TO ACTION ---------*/
+
+.call-to-action {
+  margin-bottom: 25px;
+}
+
+.call-to-action a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  background-color: #5f7a5c;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  padding-bottom: 15px;
+  width: 300px;
+  height: 169px;
+}
+
+/*-------- EVENTS ---------*/
+
+.events {
+  padding-bottom: 25px;
+}
+
+.event-card {
+  background-color: #92b38c;
+  padding: 15px;
+  border: 3px solid #95b98f;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.event-card img {
+  width: 90%;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+.event-card h3 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 0;
+  color: #29412b;
+}
+
+.event-card h4 {
+  text-align: center;
+  line-height: 0;
+  color: #1e301f;
+}
+
+.event-card a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  background-color: #5f7a5c;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*-------- FOOTER ---------*/
+
+footer {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  background-color: #61765B;
+}
+
+footer img {
+  width: 100px;
+  align-self: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.footer-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social img {
+  width: 25px;
+  align-self: center;
+}
+
+.social a {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+hr {
+  border-color: #abc2a7;
+  margin: 20px 0;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.footer-small {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fffffff1;
+}
+
+/*----------------------------------------------------- OUR STORY --------------------------------------------------*/
+
+/*-------- HERO ---------*/
+
+.story-hero h2 {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
+.story-hero {
+  padding-top: 25px;
+}
+
+.story-hero img {
+  width: 100vw;
+}
+
+/*-------- OUR HISTORY ---------*/
+
+.our-history h2 {
+  font-size: 2rem;
+}
+
+/*-------- PHOTO GALLERY ---------*/
+
+.photo-gallery h2 {
+  font-size: 2rem;
+}
+
+.photo-gallery {
+  padding-bottom: 20px;
+}
+
+.gallery img {
+  width: 35vw;
+}
+
+.gallery {
+  width: 80vw;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+/*----------------------------------------------------- CONTACT US --------------------------------------------------*/
+
+/*-------- HERO ---------*/
+
+.contact-hero h2 {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
+.contact-hero img {
+  width: 100vw;
+}
+
+.contact-hero {
+  padding-top: 25px;
+}
+
+/*-------- LOCATION ---------*/
+
+.location h2 {
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
+.location p {
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/*-------- CONTACT US ---------*/
+
+.contact-table caption {
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 15px;
+  color: rgb(71, 95, 71);
+}
+
+.contact-table {
+  padding-bottom: 30px;
+}
+
+table {
+  width: 70vw;
+  margin: auto;
+}
+
+th {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+td,
+th {
+  padding: 4px;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: rgba(123, 167, 120, 0.548);
+  color: white;
+  border-radius: 10px;
+}
+
+table a {
+  text-decoration: none;
+  color: #283d23;
+}
+
+/*-------- CONTACT FORM ---------*/
+
+.contact-form-section {
+  padding-bottom: 30px;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="reset"] {
+  color: #4a5e46;
+  padding: 10px 18px;
+  border: 2px solid #95b98f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #acdaaf;
+}
+
+input[type="submit"] {
+  background-color: #7e9b79;
+  color: white;
+  padding: 10px 18px;
+  border: 2px solid #719470;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #9bc49e;
+}
+
+.contact-form {
+  border-radius: 10px;
+  background-color: rgba(123, 167, 120, 0.438);
+  padding: 20px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.contact-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #67806b;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #67806b;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #67806b;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.required {
+  font-size: 1.4rem;
+  color: rgb(165, 43, 43);
+}
+
+input:required {
+  border: 1px solid rgb(165, 43, 43);
+}
+
+/*-------- MEDIA QUERIES ---------*/
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+
+@media only screen and (min-width: 1200px) {
+  /*-------- UTILITY ---------*/
+
+  .content-width {
+    width: 1130px;
+  }
+
+  /*-------- TYPOGRAPHY ---------*/
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  .button {
+    display: block;
+    margin: auto;
+    width: 350px;
+    font-size: 2rem;
+    cursor: pointer;
+    border: 3px solid #5f7a5c;
+  }
+
+  .button:hover {
+    background-color: #769771;
+    transition: ease-out 0.5s;
+  }
+
+  /*-------- HEADER ---------*/
+
+  .mobile-only-h1 {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding-right: 25px;
+  }
+
+  header {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+
+  header img {
+    width: 100px;
+    margin-left: 15px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 1.6rem;
+  }
+
+  nav a:hover {
+    color: #719470;
+    transition: linear 0.3s;
+  }
+
+  /*------------------- HOME PAGE ----------------*/
+
+  /*-------- HERO ---------*/
+
+  .hero h2 {
+    font-size: 5.5rem;
+  }
+
+  /*-------- ABOUT ---------*/
+
+  .about {
+    margin-top: 60px;
+  }
+
+  .about p {
+    width: 650px;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+
+  .about img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*-------- CALL TO ACTION ---------*/
+
+  .call-to-action {
+    margin-top: 60px;
+  }
+
+  .call-to-action .button {
+    width: 400px;
+  }
+
+  iframe {
+    width: 650px;
+    height: 366px;
+    margin-bottom: 20px;
+    border: 0;
+  }
+
+  /*-------- EVENTS ---------*/
+
+  .events {
+    margin-top: 60px;
+  }
+
+  .events-content {
+    margin: auto;
+    width: 650px;
+    padding-bottom: 30px;
+  }
+
+  .events a {
+    width: 70%;
+  }
+
+  .event-card img {
+    width: 80%;
+  }
+
+  .event-card {
+    width: 33%;
+  }
+
+  .event-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .card-4 {
+    padding-top: 20px;
+  }
+
+  .card-4 .button {
+    margin-top: 35px;
+  }
+
+  /*-------- FOOTER ---------*/
+
+  footer img {
+    width: 125px;
+    margin-top: 20px;
+  }
+
+  footer a {
+    font-size: 1.6rem;
+  }
+
+  footer a:hover {
+    color: #465f45;
+    transition: linear 0.3s;
+  }
+
+  footer ul {
+    padding-top: 15px;
+  }
+
+  .social a {
+    padding-top: 18px;
+  }
+
+  .social img {
+    width: 30px;
+  }
+
+  .footer-small {
+    font-size: 1.4rem;
+    width: 800px;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  /*------------------- OUR STORY ----------------*/
+
+  /*-------- HERO ---------*/
+
+  .story-hero h2 {
+    font-size: 4rem;
+    padding-top: 20px;
+  }
+
+  /*-------- HISTORY ---------*/
+
+  .our-history {
+    padding-top: 30px;
+  }
+
+  .our-history h2 {
+    padding-bottom: 20px;
+    font-size: 3.4rem;
+  }
+
+  .our-history p {
+    width: 650px;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+
+  /*-------- PHOTO GALLERY ---------*/
+
+  .photo-gallery {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .photo-gallery h2 {
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-size: 3.4rem;
+  }
+
+  .photo-gallery img:hover {
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 15px 0px;
+    transition: ease-out 0.2s;
+  }
+
+  /*------------------- CONTACT US ----------------*/
+
+  /*-------- HERO ---------*/
+
+  .contact-hero h2 {
+    font-size: 4rem;
+    padding-top: 20px;
+  }
+
+  /*-------- LOCATION ---------*/
+
+  .location h2 {
+    font-size: 3.2rem;
+    padding-bottom: 20px;
+  }
+
+  .location p {
+    width: 650px;
+    margin: auto;
+    padding-bottom: 18px;
+  }
+
+  /*-------- CONTACT US ---------*/
+
+  .contact-table caption {
+    font-size: 3.2rem;
+    padding-bottom: 25px;
+  }
+
+  .contact-us {
+    padding-bottom: 20px;
+  }
+
+  /*-------- CONTACT FORM ---------*/
+
+  .contact-us {
+    padding-top: 30px;
+  }
+
+  .contact-form h2 {
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+}
